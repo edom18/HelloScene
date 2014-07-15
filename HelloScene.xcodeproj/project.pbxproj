@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C1D8B3F1975498500861A7C /* 1-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D8B391975498500861A7C /* 1-right.png */; };
+		5C1D8B401975498500861A7C /* 2-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D8B3A1975498500861A7C /* 2-left.png */; };
+		5C1D8B411975498500861A7C /* 3-top.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D8B3B1975498500861A7C /* 3-top.png */; };
+		5C1D8B421975498500861A7C /* 4-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D8B3C1975498500861A7C /* 4-bottom.png */; };
+		5C1D8B431975498500861A7C /* 5-front.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D8B3D1975498500861A7C /* 5-front.png */; };
+		5C1D8B441975498500861A7C /* 6-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D8B3E1975498500861A7C /* 6-back.png */; };
+		5CC8F7A91975432E005CF484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8F7A81975432E005CF484 /* AppDelegate.swift */; };
+		5CC8F7AB1975432E005CF484 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8F7AA1975432E005CF484 /* GameViewController.swift */; };
+		5CC8F7AE1975432E005CF484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC8F7AC1975432E005CF484 /* Main.storyboard */; };
+		5CC8F7B01975432E005CF484 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC8F7AF1975432E005CF484 /* Images.xcassets */; };
+		5CC8F7BC1975432E005CF484 /* HelloSceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8F7BB1975432E005CF484 /* HelloSceneTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CC8F7B61975432E005CF484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC8F79B1975432D005CF484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC8F7A21975432E005CF484;
+			remoteInfo = HelloScene;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C1D8B391975498500861A7C /* 1-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-right.png"; sourceTree = "<group>"; };
+		5C1D8B3A1975498500861A7C /* 2-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-left.png"; sourceTree = "<group>"; };
+		5C1D8B3B1975498500861A7C /* 3-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-top.png"; sourceTree = "<group>"; };
+		5C1D8B3C1975498500861A7C /* 4-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-bottom.png"; sourceTree = "<group>"; };
+		5C1D8B3D1975498500861A7C /* 5-front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-front.png"; sourceTree = "<group>"; };
+		5C1D8B3E1975498500861A7C /* 6-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6-back.png"; sourceTree = "<group>"; };
+		5CC8F7A31975432E005CF484 /* HelloScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC8F7A71975432E005CF484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC8F7A81975432E005CF484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CC8F7AA1975432E005CF484 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5CC8F7AD1975432E005CF484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CC8F7AF1975432E005CF484 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CC8F7B51975432E005CF484 /* HelloSceneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSceneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC8F7BA1975432E005CF484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC8F7BB1975432E005CF484 /* HelloSceneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSceneTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CC8F7A01975432E005CF484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC8F7B21975432E005CF484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C1D8B381975498500861A7C /* skybox */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D8B391975498500861A7C /* 1-right.png */,
+				5C1D8B3A1975498500861A7C /* 2-left.png */,
+				5C1D8B3B1975498500861A7C /* 3-top.png */,
+				5C1D8B3C1975498500861A7C /* 4-bottom.png */,
+				5C1D8B3D1975498500861A7C /* 5-front.png */,
+				5C1D8B3E1975498500861A7C /* 6-back.png */,
+			);
+			path = skybox;
+			sourceTree = "<group>";
+		};
+		5CC8F79A1975432D005CF484 = {
+			isa = PBXGroup;
+			children = (
+				5CC8F7A51975432E005CF484 /* HelloScene */,
+				5CC8F7B81975432E005CF484 /* HelloSceneTests */,
+				5CC8F7A41975432E005CF484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CC8F7A41975432E005CF484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8F7A31975432E005CF484 /* HelloScene.app */,
+				5CC8F7B51975432E005CF484 /* HelloSceneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CC8F7A51975432E005CF484 /* HelloScene */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D8B381975498500861A7C /* skybox */,
+				5CC8F7A81975432E005CF484 /* AppDelegate.swift */,
+				5CC8F7AA1975432E005CF484 /* GameViewController.swift */,
+				5CC8F7AC1975432E005CF484 /* Main.storyboard */,
+				5CC8F7AF1975432E005CF484 /* Images.xcassets */,
+				5CC8F7A61975432E005CF484 /* Supporting Files */,
+			);
+			path = HelloScene;
+			sourceTree = "<group>";
+		};
+		5CC8F7A61975432E005CF484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8F7A71975432E005CF484 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CC8F7B81975432E005CF484 /* HelloSceneTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8F7BB1975432E005CF484 /* HelloSceneTests.swift */,
+				5CC8F7B91975432E005CF484 /* Supporting Files */,
+			);
+			path = HelloSceneTests;
+			sourceTree = "<group>";
+		};
+		5CC8F7B91975432E005CF484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8F7BA1975432E005CF484 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CC8F7A21975432E005CF484 /* HelloScene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC8F7BF1975432E005CF484 /* Build configuration list for PBXNativeTarget "HelloScene" */;
+			buildPhases = (
+				5CC8F79F1975432E005CF484 /* Sources */,
+				5CC8F7A01975432E005CF484 /* Frameworks */,
+				5CC8F7A11975432E005CF484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloScene;
+			productName = HelloScene;
+			productReference = 5CC8F7A31975432E005CF484 /* HelloScene.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC8F7B41975432E005CF484 /* HelloSceneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC8F7C21975432E005CF484 /* Build configuration list for PBXNativeTarget "HelloSceneTests" */;
+			buildPhases = (
+				5CC8F7B11975432E005CF484 /* Sources */,
+				5CC8F7B21975432E005CF484 /* Frameworks */,
+				5CC8F7B31975432E005CF484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC8F7B71975432E005CF484 /* PBXTargetDependency */,
+			);
+			name = HelloSceneTests;
+			productName = HelloSceneTests;
+			productReference = 5CC8F7B51975432E005CF484 /* HelloSceneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC8F79B1975432D005CF484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "比留間 和也";
+				TargetAttributes = {
+					5CC8F7A21975432E005CF484 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5CC8F7B41975432E005CF484 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5CC8F7A21975432E005CF484;
+					};
+				};
+			};
+			buildConfigurationList = 5CC8F79E1975432D005CF484 /* Build configuration list for PBXProject "HelloScene" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CC8F79A1975432D005CF484;
+			productRefGroup = 5CC8F7A41975432E005CF484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CC8F7A21975432E005CF484 /* HelloScene */,
+				5CC8F7B41975432E005CF484 /* HelloSceneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC8F7A11975432E005CF484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC8F7AE1975432E005CF484 /* Main.storyboard in Resources */,
+				5C1D8B441975498500861A7C /* 6-back.png in Resources */,
+				5C1D8B411975498500861A7C /* 3-top.png in Resources */,
+				5C1D8B3F1975498500861A7C /* 1-right.png in Resources */,
+				5C1D8B421975498500861A7C /* 4-bottom.png in Resources */,
+				5CC8F7B01975432E005CF484 /* Images.xcassets in Resources */,
+				5C1D8B401975498500861A7C /* 2-left.png in Resources */,
+				5C1D8B431975498500861A7C /* 5-front.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC8F7B31975432E005CF484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC8F79F1975432E005CF484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC8F7AB1975432E005CF484 /* GameViewController.swift in Sources */,
+				5CC8F7A91975432E005CF484 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC8F7B11975432E005CF484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC8F7BC1975432E005CF484 /* HelloSceneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CC8F7B71975432E005CF484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC8F7A21975432E005CF484 /* HelloScene */;
+			targetProxy = 5CC8F7B61975432E005CF484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CC8F7AC1975432E005CF484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC8F7AD1975432E005CF484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CC8F7BD1975432E005CF484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CC8F7BE1975432E005CF484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CC8F7C01975432E005CF484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloScene/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CC8F7C11975432E005CF484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloScene/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CC8F7C31975432E005CF484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloScene.app/HelloScene";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloSceneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		5CC8F7C41975432E005CF484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloScene.app/HelloScene";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloSceneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CC8F79E1975432D005CF484 /* Build configuration list for PBXProject "HelloScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC8F7BD1975432E005CF484 /* Debug */,
+				5CC8F7BE1975432E005CF484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC8F7BF1975432E005CF484 /* Build configuration list for PBXNativeTarget "HelloScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC8F7C01975432E005CF484 /* Debug */,
+				5CC8F7C11975432E005CF484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC8F7C21975432E005CF484 /* Build configuration list for PBXNativeTarget "HelloSceneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC8F7C31975432E005CF484 /* Debug */,
+				5CC8F7C41975432E005CF484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CC8F79B1975432D005CF484 /* Project object */;
+}
