@@ -86,9 +86,9 @@ class GameViewController: UIViewController {
         ballNode.geometry = ballShape
         ballNode.physicsBody = ballPhysics
         
-        let x = CFloat(arc4random_uniform(5))
-        let z = CFloat(arc4random_uniform(5))
-        
+        let base: UInt32 = 10
+        let x = (Float(arc4random_uniform(base)) * 2) - Float(base)
+        let z = (Float(arc4random_uniform(base)) * 2) - Float(base)
         ballNode.position = SCNVector3(x: x, y: 5, z: z)
         
         (self.view as SCNView).scene.rootNode.addChildNode(ballNode)
